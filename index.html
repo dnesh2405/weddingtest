@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEDDING 2024</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="top-section">
+      <h1>WELCOME TO OUR WEDDING PHOTOBOOK</h1>
+      <h2></h2>
+      <input type="file" class="inputFile" id="fileInp" onchange="getFile(event)" accept="image/png, image/jpeg, video/mp4" />
+      <label for="fileInp">+</label>
+      <span class="fileText"></span>
+      <button onclick="uploadImage()">UPLOAD IMAGE</button>
+          
+      <div class="imageUploaded">
+        <img alt="" class="img" />
+      </div>
+    </div>
+
+    <div class="bottom-section">
+      <h1>GALLERY</h1>
+      <div class="gallery-container" id="galleryContainer"></div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase.js";></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

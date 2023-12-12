@@ -1,0 +1,74 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+}
+
+body {
+    margin: 0;
+    background-color: bisque; /* Set bisque as the default background color for the body */
+}
+
+.top-section {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+.bottom-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.inputFile {
+    display: none;
+}
+
+.fileText {
+    margin-bottom: 10px;
+}
+
+label {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px auto; /* Center the label horizontally */
+    font-size: 100px;
+    background: linear-gradient(45deg, blue, red);
+    cursor: pointer;
+}
+
+button {
+    padding: 20px 25px;
+    background: rgb(12, 70, 179);
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+.img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    display: none;
+    border: 5px solid cornflowerblue;
+    margin: 10px auto; /* Center the image horizontally */
+}
+
+.imageUploaded {
+    margin-top: 10px;
+}
+.gallery-container img {
+    height: 200px; /* Set the desired height for all images */
+    width: 200px; /* Set the desired width for all images */
+    object-fit: contain;
+    border: 5px solid cornflowerblue;
+    margin: 10px;
+}
